@@ -449,11 +449,7 @@ font-size: 30px;
 
 
 }
-    .Services-list div:hover{
-    background: #00abf0;
-    transform: translateY(-10px);
-
-}
+    
 nav .bx{
 display: block;
 font-size: 25px;
