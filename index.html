@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="images/logo.png" alt=""> -->
+                <a href="#" class="logo">Portfolio</a>
+
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class='bx bx-x' onclick="closemenu()"></i>
+                </ul>
+                <i class='bx bx-menu'  onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                
+                <h3>Hello,It's Me</h3>
+                <h1>Haseeb Chaudhary</h1>
+                   <h3>And I'm a <span class="multiple-text"></span></h3>
+                <div class="headersocila-icons">
+                    <a href="https://www.facebook.com/" ><i class='bx bxl-facebook'></i></a>
+                    <a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://twitter.com/" ><i class='bx bxl-twitter'></i></a>
+                    <a href="https://pk.linkedin.com/" ><i class='bx bxl-linkedin-square'></i></a>
+                   
+
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- -------------------ABOUT--------------- -->
+    <div id="about">
+        <div class="container">
+<div class="row">
+    <div class="about-col-1">
+        <img src="images/user.png" alt="">
+    </div>
+    <div class="about-col-2">
+        <h1 class="sub-title">About <span>Me.</span></h1>
+    <p>I am an Software engineer with holistic
+        knowledge of software development and
+        design. I am also  great knowledge of UX/UI design (Figma tools&techniques..)  I am experienced in
+        coordinating with stakeholders.
+        </p>
+    
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+            <ul>
+                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                <li><span>Web Development</span><br> Web App Development</li>
+                <li><span>App Development</span><br>Building Android/IOS apps</li>
+            </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+            <ul>
+                <li><span>2023-current</span><br>Web Development/Advance Web Development Course from UCP Lahore</li>
+                <li><span>2022-2023</span><br> UI/UX Design form Ideoversity - Best IT Training Institute</li>
+                <li><span>2021-2022</span><br>Study University of Central Punjab</li>
+            </ul>
+        </div>
+        <div class="tab-contents" id="education">
+            <ul>
+                <li><span>2023</span><br> Software Engineering form UCP Lahore.</li>
+                <li><span>2023</span><br>Web Development/Advance Web Development Course from UCP Lahore</li>
+                <li><span>2022</span><br> UI/UX Design from Ideversity - Best IT Training Institute </li>
+                <li><span>2021</span><br> Intermediate & Secondary Education form Chenab College,Faisalabad.</li>
+                
+            </ul>
+            
+        </div>
+
+    </div>
+    </div>
+    </div>
+</div>
+<!-- ------------------services----------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title"> My <span>Services</span></h1>
+        <div class="Services-list">
+            <div>
+                <i class='bx bx-code-alt'></i>
+                <h2>Web Design</h2>
+                <p>Designing a professional website involves setting clear goals, planning content and structure, choosing the right platform, creating a visually appealing and accessible design, developing responsive code, conducting testing and optimization, and ensuring ongoing maintenance and improvement. It aims to provide an engaging and functional online experience for users while aligning with business objectives and industry standards.</p>
+                 <a href="#"> learn more</a>
+            </div>
+            <div>
+                <i class='bx bxs-crop'></i>
+                <h2>UI/UX Design</h2>
+                <p> UX/UI design is the disciplined process of creating digital interfaces that prioritize 
+                    user needs and satisfaction. It involves understanding user problems, conducting research, wireframing and prototyping, applying visual design principles, ensuring accessibility, and continuous testing and refinement. Collaboration, effective communication, and staying up-to-date with industry trends are also integral parts of the profession. The goal is to deliver user-friendly, aesthetically pleasing, and functional digital experiences that meet both user and business objectives.</p>
+                 <a href="#"> learn more</a>
+            </div>
+            <div>
+
+                <i class='bx bxl-apple'></i>
+                <h2>App Design</h2>
+                <p>App design encompasses the process of creating user-friendly, visually appealing, and functional mobile or web applications. It involves user research, wireframing, prototyping, visual design, and usability testing. The goal is to deliver an intuitive and satisfying user experience by considering user needs, defining clear functionality, and adhering to design principles, while also maintaining consistency with brand identity. Successful app design relies on collaboration between designers, developers, and stakeholders, with a focus on iterative improvements and staying current with industry trends and technologies.</p>
+                 <a href="#"> learn more</a>
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+</div>
+
+<!-- -----------------PORTFOLIO--------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"> My <span>Work</span> </h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="images/work-1.png" alt="" class="imag">
+            <div class="layer">
+                <h3>Social Media </h3>
+                <p>The app Connects you to the talented people around the world.
+                    download it from play store.
+                </p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+
+            </div>
+            
+        </div>
+       
+    
+   
+        <div class="work">
+            <img src="images/work-2.png" alt="" class="imag">
+            <div class="layer">
+                <h3>Music APP</h3>
+                <p>The app Connects you to the talented people around the world.
+                    download it from play store.
+                </p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+
+            </div>
+        </div>
+       
+ 
+        <div class="work">
+            <img src="images/work-3.png" alt="" class="imag">
+            <div class="layer">
+                <h3>Online Shopping App</h3>
+                <p>The app Connects you to the talented people around the world.
+                    download it from play store.
+                </p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+
+            </div>
+       
+        </div>
+    </div>
+    <a href="#" class="btn"> See more</a>
+    </div>
+</div>
+
+<!-- ---------------CONTACT-------------- -->
+ <div id="contact">
+    <div class="container">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact <span>Me!</span></h1>
+            <p><i class='bx bxs-chat'></i>haseebtaga453@gmail.com</p>
+            <p><i class='bx bxs-phone'></i>+9203001777454</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/" class="fb"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/" class="in"><i class='bx bxl-instagram'></i></a>
+                <a href="https://pk.linkedin.com/" class="lin"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="https://github.com/" class="git"><i class='bx bxl-github'></i></a>
+            </div>
+            <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+<form>
+    <input type="text" name="Name" placeholder="Your Name" required>
+    <input type="email" name="Email" placeholder="Your email@gmail.com" required>
+    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+    <button type="submit" class="btn btn2">Submit</button>
+
+
+</form>
+        </div>
+    </div>
+ </div>
+ <div class="copyright">
+    <p>copyright ©Haseeb. <i class='bx bxl-codepen'></i> Web Developer</p>
+
+ </div>
+</div>
+
+
+
+
+
+
+
+
+
+<!-- scrollreveal -->
+<script src="https://unpkg.com/scrollreveal"></script>
+<!-- type.js -->
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+<script src="./logic.js"></script>
+
+    
+</body>
+</html>
